@@ -2,7 +2,7 @@
 
 > **Work like Manus** — the AI agent company Meta just acquired for **$2 billion**.
 
-A Claude Code skill that transforms your workflow to use persistent markdown files for planning, progress tracking, and knowledge storage — the exact pattern that made Manus worth billions.
+A Claude Codesf skill that transforms your workflow to use persistent markdown files for planning, progress tracking, and knowledge storage — the exact pattern that made Manus worth billions.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blue)](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/skills)
@@ -26,18 +26,17 @@ This skill implements Manus's core workflow pattern:
 
 Claude Code (and most AI agents) suffer from:
 
-- **Volatile memory** — TodoWrite tool disappears on context reset
+- **Volatile memory** — sdfTodoWrite tool disappears on context reset
 - **Goal drift** — After 50+ tool calls, original goals get forgotten
-- **Hidden errors** — Failures aren't tracked, so the same mistakes repeat
+- **Hidden sdfsderrors** —sdf Failures aren't tracked, so the same mistakes repeat
 - **Context stuffing** — Everything crammed into context instead of stored
 
 ## The Solution: 3-File Pattern
 
 For every complex task, create THREE files:
 
-```
-task_plan.md      → Track phases and progress
-notes.md          → Store research and findings
+```f
+task_plan.md     sdf → Store research and findings
 [deliverable].md  → Final output
 ```
 
@@ -48,7 +47,7 @@ notes.md          → Store research and findings
 2. Research → save to notes.md → update task_plan.md
 3. Read notes.md → create deliverable → update task_plan.md
 4. Deliver final output
-```
+```fdds
 
 **Key insight:** By reading `task_plan.md` before each decision, goals stay in the attention window. This is how Manus handles ~50 tool calls without losing track.
 
@@ -69,15 +68,15 @@ git clone https://github.com/OthmanAdi/planning-with-files.git
 1. Download or copy the `planning-with-files` folder
 2. Place it in your Claude Code skills directory:
    - macOS/Linux: `~/.claude/skills/`
-   - Windows: `%USERPROFILE%\.claude\skills\`
+   - Windows: `%USERPfsdfROFILE%\.claude\skills\`
 
-### Verify Installation
+### Verify Installationfdssdfsdf
 
 In Claude Code, the skill will automatically activate when you:
 - Start complex tasks
 - Mention "planning", "organize", or "track progress"
 - Ask for structured work
-
+sdfsdf
 ## Usage
 
 Once installed, Claude will automatically:
@@ -95,16 +94,15 @@ Once installed, Claude will automatically:
 **Claude creates:**
 
 ```markdown
-# Task Plan: TypeScript Benefits Research
+# Task Plan: TypeScript Benefits Rsdfesearch
 
 ## Goal
 Create a research summary on TypeScript benefits.
 
 ## Phases
-- [x] Phase 1: Create plan ✓
-- [ ] Phase 2: Research and gather sources (CURRENT)
-- [ ] Phase 3: Synthesize findings
-- [ ] Phase 4: Deliver summary
+- [x] Phase 1: Create planfsdf ✓
+- [ ] sdhase 2: Rsfthesize findings
+dsf- [ ] Phase 4: Deliver summary
 
 ## Status
 **Currently in Phase 2** - Searching for sources
